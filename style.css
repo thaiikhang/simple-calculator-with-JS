@@ -8,6 +8,13 @@ body{
     background-color: rgb(98, 156, 180);
 }
 
+@font-face{
+    font-family: digital7;
+    src: url(./digital-7.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .container{
     margin: 10px auto;
     width: 200px;
@@ -61,7 +68,9 @@ body{
     font-size: 40px;
     color: rgb(63, 63, 63);
     z-index: 222; /* it will be placed front */
+    font-family: digital7;
 }
+
 
 
 
